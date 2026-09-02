@@ -145,3 +145,6 @@ Cross-validation: re-reference both channels' thickness maps to a common zero ov
 - Ghiglia, D. C., & Pritt, M. D. (1998). *Two-dimensional phase unwrapping: Theory, algorithms, and software*. Wiley.
 - Bioucas-Dias, J. M., & Valadão, G. (2007). Phase unwrapping via graph cuts. *IEEE Trans. Image Process.*, 16(3), 698.
 - Larkin, K. G., Bone, D. J., & Oldfield, M. A. (2001). Natural demodulation of two-dimensional fringe patterns. I. General background of the spiral phase quadrature transform. *J. Opt. Soc. Am. A*, 18(8), 1862.
+
+## Note
+Anybody using this repository please cite : Mitra, S., Kapur, V., Jones, L., & Mitra, S. K. (2025). Dynamics of an Artificial Tear Film on Contact Lenses in Response to a Moving Force Mimicking Fingertip Application. ACS Applied Materials & Interfaces, 17(44), 61426-61438.
