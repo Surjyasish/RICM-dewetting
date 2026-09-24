@@ -7,7 +7,10 @@ Dual-wavelength Reflection Interference Contrast Microscopy analysis of a residu
 
 ## What this is
 
-A single frame late in an evaporation series is neither a drop (topography reconstructable with the usual pipeline) nor a dry field (nothing to reconstruct). It is a **thin residual film perforated by dewetting defects**, with a coherent fringe region only over part of the wetted area. The analysis here:
+A single interference imaging frame acquired simultaneous at two different wavelengths (488 nm and 561 nm)
+during late-stage evaporation of a thin film, i.e., it is neither a drop (topography reconstructable with the usual pipeline) nor a dry field (nothing to reconstruct). 
+It is a **thin residual film perforated by dewetting defects**, with a coherent fringe region only over part of the wetted area. 
+The analysis here:
 
 1. Reconstructs **relative film thickness** in the coherent region, independently for each wavelength (488 nm and 561 nm).
 2. Cross-validates the two wavelengths pixel-by-pixel and reports an internal error floor.
@@ -29,19 +32,13 @@ The pipeline therefore restricts the reconstruction to a coherent-and-defect-fre
 
 **Relative film thickness (dual-wavelength average, coherent region):**
 
-![dualwave average](film_panels/09_dualwave_average.png)
-
 **Cross-wavelength validation** (this is the honest error floor):
-
-![Ch1 vs Ch2](film_panels/08_correlation.png)
 
 The two wavelengths reconstruct the same physical film independently. RMS 0.29 µm ≈ 1.6 fringes (Ch1) or 1.4 fringes (Ch2). No systematic bias.
 
 **Ch1 − Ch2 difference map:**
 
-![difference](film_panels/06_difference.png)
-
-The lower lobe (the trustworthy region) is uniformly pale. The systematic ~0.7 µm offset on the upper-left arc reflects that patch being disconnected from the lower lobe, so its absolute level is not fixed by the data — a limitation, not a bug.
+The lower lobe (the trustworthy region) is uniformly pale. The systematic ~0.7 µm offset on the upper-left arc reflects that patch being disconnected from the lower lobe, so its absolute level is not fixed by the data — a limitation.
 
 ## Repo layout
 
