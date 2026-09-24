@@ -4,7 +4,6 @@
 
 Dual-wavelength Reflection Interference Contrast Microscopy analysis of a residual liquid film shortly before complete evaporation. This repo contains the reconstruction pipeline, the analyzed frame, and reproducible outputs.
 
-![raw Ch1 fringes](raw_ch1_t123.png)
 
 ## What this is
 
